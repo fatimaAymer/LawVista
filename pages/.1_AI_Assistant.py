@@ -37,6 +37,7 @@ except Exception:
         "Please check your internet connection and try again."
     )
     st.stop()
+    
       st.write(response.output_text)
       st.write("**Your Question:**", question)
       st.write("**Language:**", language)
